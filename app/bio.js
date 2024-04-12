@@ -43,7 +43,7 @@ export default function Bio(props) {
                 height={25}
                 className='invert mr-3'
             />
-            <a href="https://www.linkedin.com/in/malthusohtj/">https://www.linkedin.com/in/malthusohtj/</a>
+            <a href="https://www.linkedin.com/in/malthusohtj/" target="_blank">https://www.linkedin.com/in/malthusohtj/</a>
         </div>
         <div className='mt-2 flex flex-row'>
             <Image
@@ -53,7 +53,7 @@ export default function Bio(props) {
                 height={25}
                 className='invert mr-3'
             />
-            <a href="https://github.com/malthusohtj">https://github.com/malthusohtj</a>
+            <a href="https://github.com/malthusohtj" target="_blank">https://github.com/malthusohtj</a>
         </div>
     </div>
 }
