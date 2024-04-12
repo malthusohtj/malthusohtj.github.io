@@ -11,7 +11,11 @@ export default function Experience(props) {
                 </span>
             </div>
         </div>
-        <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus purus nec arcu venenatis, et tincidunt ipsum suscipit. Morbi cursus hendrerit metus, id varius ex ultricies ut. Proin semper metus non diam dictum rhoncus.</p>
+        <ul className="ml-3 mt-3 list-disc">
+            {props.data.description.map((point) => {
+                return <li>{point}</li>
+            })}
+        </ul>
         <ul className="mt-3 flex flex-wrap">
             {props.data.techstack.map((tech) => {
                 return <li>
