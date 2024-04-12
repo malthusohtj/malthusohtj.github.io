@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import "./global.css"
 
-export default function Bio() {
-    return <div className='mx-5 flex flex-col justify-center min-h-screen bg-inherit'>
+export default function Bio(props) {
+    return <div className={`${props.classProps} mx-5 flex flex-col justify-center min-h-screen bg-inherit`}>
         <div>
             <Image
                 src="/mypicture.png"

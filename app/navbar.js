@@ -1,7 +1,7 @@
 import Link from "next/link"
 
-export default function NavBar() {
-    return <div className="flex flex-row justify-around">
+export default function NavBar(props) {
+    return <div className={`${props.classProps} flex flex-row justify-around`} >
         <div>
             <Link href="/#about">About</Link>
         </div>
@@ -11,5 +11,5 @@ export default function NavBar() {
         <div>
             <Link href="/#projects">Projects</Link>
         </div>
-    </div>
+    </div >
 }
