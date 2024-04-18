@@ -3,7 +3,7 @@ export default function Experience(props) {
         <div className="flex flex-row justify-between">
             <div className="basis-2/3 flex flex-col">
                 <h1 className="text-lg font-bold">{props.data.title}</h1>
-                <h1>{props.data.company} @ {props.data.location}</h1>
+                <h1>{props.data.company} <span class="italic">{props.data.companyDesc ? "[" + props.data.companyDesc + "]" : null}</span> @ {props.data.location}</h1>
             </div>
             <div className="basis-1/3 flex flex-col items-end">
                 <div className="align-middle font-bold">

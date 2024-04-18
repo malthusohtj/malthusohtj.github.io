@@ -3,6 +3,7 @@ export function getExperiences() {
         {
             title: "Software Engineer Intern",
             company: "Amplified Industries",
+            companyDesc: "Forbes 30 under 30 Energy",
             location: "Boston, USA",
             start: "Jul 2023",
             end: "Jan 2024",
@@ -17,6 +18,7 @@ export function getExperiences() {
         {
             title: "Product Manager Intern",
             company: "Circular",
+            companyDesc: "Y-Combinator Winter 2022",
             location: "Singapore",
             start: "May 2023",
             end: "Jul 2023",
@@ -30,6 +32,7 @@ export function getExperiences() {
         {
             title: "Business Analytics Intern",
             company: "Baxter International Inc",
+            companyDesc: "NYSE-listed Healthcare MNC",
             location: "Singapore",
             start: "May 2021",
             end: "Jul 2021",
@@ -44,6 +47,7 @@ export function getExperiences() {
         {
             title: "Data Analyst Intern",
             company: "Wego.com",
+            companyDesc: "#1 Travel Booking Platform in MENA Region",
             location: "Singapore",
             start: "Feb 2020",
             end: "May 2020",
@@ -56,13 +60,14 @@ export function getExperiences() {
         },
         {
             title: "Software Developer (National Service)",
-            company: "Republic of Singapore Air Force",
+            company: "Republic of Singapore Air Force (RSAF)",
             location: "Singapore",
             start: "Aug 2018",
             end: "Feb 2020",
             duration: "1.5 years",
             description: [
                 "Achieved 2nd Runner Up in RSAF Mobile App Challenge for building Android app that automates meeting scheduling and venue booking for military officers. Developed using Java and Google Cloud Firestore",
+                "Completed mobile app and C# coding bootcamp under the mentorship of engineers from Microsoft and RSAF",
             ],
             techstack: ["Java", "Android", "Android Studio", "Google Cloud Firestore"]
         },
