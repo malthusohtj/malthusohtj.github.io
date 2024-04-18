@@ -5,10 +5,13 @@ export default function Experience(props) {
                 <h1 className="text-lg font-bold">{props.data.title}</h1>
                 <h1>{props.data.company} @ {props.data.location}</h1>
             </div>
-            <div className="basis-1/3 flex justify-end items-center">
-                <span className="align-middle">
+            <div className="basis-1/3 flex flex-col items-end">
+                <div className="align-middle font-bold">
                     {props.data.start} - {props.data.end}
-                </span>
+                </div>
+                <div className="align-middle">
+                    [ {props.data.duration} ]
+                </div>
             </div>
         </div>
         <ul className="ml-4 mt-3 list-disc">

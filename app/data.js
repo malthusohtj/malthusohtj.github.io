@@ -6,6 +6,7 @@ export function getExperiences() {
             location: "Boston, USA",
             start: "Jul 2023",
             end: "Jan 2024",
+            duration: "6 months",
             description: [
                 "Spearheaded planning and deployment of long-term data lake using AWS S3 and parquet files",
                 "Developed time-efficient data migration scripts (from PostgreSQL to data lake) in Python and SQL",
@@ -19,6 +20,7 @@ export function getExperiences() {
             location: "Singapore",
             start: "May 2023",
             end: "Jul 2023",
+            duration: "3 months",
             description: [
                 "Gathered technical requirements, supported road mapping, and collaborated with diverse teams (C-Suite, Engineering, Risk, Collections) to roll out new payment portal onto website, reducing customer friction",
                 "Saved colleagues ~2 man-hours a week by building software tool using Retool, Airtable, and Javascript",
@@ -31,6 +33,7 @@ export function getExperiences() {
             location: "Singapore",
             start: "May 2021",
             end: "Jul 2021",
+            duration: "3 months",
             description: [
                 "Identified unprofitable products by re-constructing regional income statements with Excel and VBA",
                 "Built sales analytics dashboard in Tableau to analyse customer preferences and guide sales strategy",
@@ -44,6 +47,7 @@ export function getExperiences() {
             location: "Singapore",
             start: "Feb 2020",
             end: "May 2020",
+            duration: "4 months",
             description: [
                 "Saved $36,000 annually by writing script in Python and SQL that replaced paid SaaS solution",
                 "Built customer behaviour analytics dashboard using ChartIO, SQL, and Google BigQuery to identify travel sales opportunities during the COVID-19 pandemic",
@@ -56,6 +60,7 @@ export function getExperiences() {
             location: "Singapore",
             start: "Aug 2018",
             end: "Feb 2020",
+            duration: "1.5 years",
             description: [
                 "Achieved 2nd Runner Up in RSAF Mobile App Challenge for building Android app that automates meeting scheduling and venue booking for military officers. Developed using Java and Google Cloud Firestore",
             ],
