@@ -11,7 +11,7 @@ export default function Experience(props) {
                 </span>
             </div>
         </div>
-        <ul className="ml-3 mt-3 list-disc">
+        <ul className="ml-4 mt-3 list-disc">
             {props.data.description.map((point) => {
                 return <li>{point}</li>
             })}
