@@ -1,3 +1,13 @@
+export function getAbout() {
+    return [
+        "When I was 18, I learnt how to code online and built my first e-commerce website to market and sell tech products.",
+        "Fast forward to today, I am on track to graduate with Double Degrees (Highest Distinction with Honours) in Computer Science and Business under university scholarship at Nanyang Technological University (Singapore).",
+        "I've had the privilege of interning for diverse functions (software engineering, product management, data analyst) in a wide range of industries (technology, energy, healthcare, government) and company sizes (VC-backed startups, NYSE-listed MNCs, government organisations). I've also spent extended periods of time on student exchange in Canada (Queen's University @ Kingston, Ontario) and interning in the USA (Amplified Industries @ Boston, MA).",
+        "Besides completing my final year of university, I am currently building TRACKR (a web app that tracks your real-time net worth) and MakanAgain (a customer loyalty platform built for the Singaporean hawker).",
+        "When I'm not coding, I'm usually working out, immersed in a good book, or cycling in my favourite parks in Singapore.",
+    ]
+}
+
 export function getExperiences() {
     return [
         {
@@ -78,7 +88,7 @@ export function getProjects() {
     return [
         {
             title: "TRACKR",
-            shortDesc: "A web app that tracks the market value of all your assets",
+            shortDesc: "A web app that tracks your real-time net worth",
             description: [
                 "A web app that reports the real-time markt value of all your financial assets to determine your current net worth. Built with React, HTML, and CSS in the frontend and Node.js, Express, and MongoDB in the backend.",
                 "Built with a partner"

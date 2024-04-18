@@ -13,7 +13,7 @@ export default function Bio(props) {
             />
         </div>
         <div className='mt-7 text-3xl font-bold'>Malthus Oh Teng Jie</div>
-        <div className='mt-3 text-xl '>Double Degree in Business and Computer Science</div>
+        <div className='mt-3 text-xl '>Double Degree in Computer Science and Business</div>
         <div className='mt-3 '>An aspiring software engineer passionate about the intersection of technology, product strategy, and user-centric design</div>
         <div className='mt-7 flex flex-row '>
             <Image
