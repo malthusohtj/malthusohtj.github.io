@@ -1,7 +1,14 @@
 export default function Project(props) {
     return <div className="p-3 border-2 flex flex-col">
-        <h1 className="text-lg font-bold">{props.data.title}</h1>
-        <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus purus nec arcu venenatis, et tincidunt ipsum suscipit. Morbi cursus hendrerit metus, id varius ex ultricies ut. Proin semper metus non diam dictum rhoncus.</p>
+        <h1 className="text-lg font-bold">
+            {props.data.title}
+            <span className="font-normal">{props.data.shortDesc ? ": " + props.data.shortDesc : null}</span>
+        </h1>
+        <ul className="ml-4 mt-3 list-disc">
+            {props.data.description.map((point) => {
+                return <li>{point}</li>
+            })}
+        </ul>
         <ul className="mt-3 flex flex-wrap">
             {props.data.techstack.map((tech) => {
                 return <li>

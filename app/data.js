@@ -42,7 +42,7 @@ export function getExperiences() {
                 "Built sales analytics dashboard in Tableau to analyse customer preferences and guide sales strategy",
                 "Wrote detailed documentation to guide non-technical colleagues on maintaining the dashboard"
             ],
-            techstack: ["Python", "Excel", "Excel VBA", "Tableau"]
+            techstack: ["Excel", "Excel VBA", "Tableau"]
         },
         {
             title: "Data Analyst Intern",
@@ -77,24 +77,49 @@ export function getExperiences() {
 export function getProjects() {
     return [
         {
-            title: "ParkWhere: a web app that finds you the best parking spot on-the-go",
-            description: "Loren aoqidoq;dho qofhqw;od qwod;uhqwd ;ouqwhd;qouwd qwd",
-            techstack: ["Vue.js", "HTML", "CSS", "Node", "MongoDB"]
+            title: "TRACKR",
+            shortDesc: "A web app that tracks the market value of all your assets",
+            description: [
+                "A web app that reports the real-time markt value of all your financial assets to determine your current net worth. Built with React, HTML, and CSS in the frontend and Node.js, Express, and MongoDB in the backend.",
+                "Built with a partner"
+            ],
+            techstack: ["React", "HTML", "CSS", "Javascript", "Node.js", "Express", "MongoDB"]
         },
         {
-            title: "ParkWhere: an app that finds you the best parking spot in Singapore",
-            description: "Loren aoqidoq;dho qofhqw;od qwod;uhqwd ;ouqwhd;qouwd qwd",
-            techstack: ["Vue.js", "HTML", "CSS", "Node", "MongoDB"]
+            title: "BabelAIBot",
+            shortDesc: "A social messaging translation chatbot powered by ChatGPT",
+            description: [
+                "A ChatGPT3.5-powered chatbot for social messaging app Telegram that automatically translates every message sent in a group chat into the native languages of every group member. Built with Python, utilising APIs from Telegram (for chatbot function) and OpenAI (for ChatGPT integration).",
+                "Built with a team where I contributed to language detection, admin bot messages, and the development of helper functions (language code conversion, UX glitter)"
+            ],
+            techstack: ["Python", "ChatGPT", "Large Language Models", "Telegram Bot"]
         },
         {
-            title: "ParkWhere: an app that finds you the best parking spot in Singapore",
-            description: "Loren aoqidoq;dho qofhqw;od qwod;uhqwd ;ouqwhd;qouwd qwd",
-            techstack: ["Vue.js", "HTML", "CSS", "Node", "MongoDB"]
+            title: "ParkWhere",
+            shortDesc: "A web app that finds you the best parking in Singapore",
+            description: [
+                "A mobile-first web app that helps drivers in Singapore find the best parking spot on-the-go. Built with Vue, HTML, and CSS in the frontend and Node.js, Express, and MongoDB in the backend.",
+                "Built with a team where I contributed to the frontend code for the home page and search page"
+            ],
+            techstack: ["Vue", "HTML", "CSS", "Javascript", "Node.js", "Express", "MongoDB"]
         },
         {
-            title: "ParkWhere: an app that finds you the best parking spot in Singapore",
-            description: "Loren aoqidoq;dho qofhqw;od qwod;uhqwd ;ouqwhd;qouwd qwd",
-            techstack: ["Vue.js", "HTML", "CSS", "Node", "MongoDB"]
+            title: "Self-Driving Land Drone",
+            shortDesc: "A self-driving, maze-traversing, image-recognising RC car",
+            description: [
+                "An autonomous self-driving RC car that navigates mazes using cameras, computer vision, and pathfinding algorithm.",
+                "Built with a team where I contributed to the pathfinding algorithm, pathfinding simulation GUI, and orchestration code (to coordinate cameras, robot movement, machine learning) all of which were built in Java."
+            ],
+            techstack: ["Java", "Java Swing UI", "Android Studio"]
+        },
+        {
+            title: "Distributed File System",
+            shortDesc: "A CLI tool that implements a UDP-based distributed file system",
+            description: [
+                "A command-line implementation of a distributed file system where a client computer can create, modify, and encrypt/decrypt files on a server computer. Built with Java.",
+                "Built with a partner"
+            ],
+            techstack: ["Java"]
         },
     ]
 }
