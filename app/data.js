@@ -1,8 +1,7 @@
 export function getAbout() {
     return [
         "When I was 18, I learnt how to code online and built my first e-commerce website to market and sell tech products.",
-        "Fast forward to today, I am on track to graduate with Double Degrees (Highest Distinction with Honours) in Computer Science and Business under university scholarship at Nanyang Technological University (Singapore).",
-        "I've had the privilege of interning for diverse functions (software engineering, product management, data analyst) in a wide range of industries (technology, energy, healthcare, government) and company sizes (VC-backed startups, NYSE-listed MNCs, government organisations). I've also spent extended periods of time on student exchange in Canada (Queen's University @ Kingston, Ontario) and interning in the USA (Amplified Industries @ Boston, MA).",
+        "Fast forward to today, I am on track to graduate with Double Degrees (Highest Distinction with Honours) in Computer Science and Business under university scholarship at Nanyang Technological University (Singapore). I've had the privilege of interning for diverse functions (software engineering, product management, data analyst) in a wide range of industries (technology, energy, healthcare, government) and company sizes (VC-backed startups, NYSE-listed MNCs, government organisations). I've also spent extended periods of time on student exchange in Canada (Queen's University @ Kingston, Ontario) and interning in the USA (Amplified Industries @ Boston, MA).",
         "Besides completing my final year of university, I am currently building TRACKR (a web app that tracks your real-time net worth) and MakanAgain (a customer loyalty platform built for the Singaporean hawker).",
         "When I'm not coding, I'm usually working out, immersed in a good book, or cycling in my favourite parks in Singapore.",
     ]
@@ -87,13 +86,22 @@ export function getExperiences() {
 export function getProjects() {
     return [
         {
+            title: "This portfolio website!",
+            description: [
+                "Built using the Next.js framework with React and Tailwind CSS in the frontend"
+            ],
+            techstack: ["React", "HTML", "CSS", "Tailwind CSS", "Next.js", "Javascript"],
+            url: "https://github.com/malthusohtj/malthusohtj.github.io"
+        },
+        {
             title: "TRACKR",
             shortDesc: "A web app that tracks your real-time net worth",
             description: [
-                "A web app that reports the real-time markt value of all your financial assets to determine your current net worth. Built with React, HTML, and CSS in the frontend and Node.js, Express, and MongoDB in the backend.",
+                "A full-stack web app that reports the real-time market value of all your financial assets to determine your current net worth. Built with React and Chakra UI in the frontend and Node.js, Express, and MongoDB in the backend.",
                 "Built with a partner"
             ],
-            techstack: ["React", "HTML", "CSS", "Javascript", "Node.js", "Express", "MongoDB"]
+            techstack: ["React", "HTML", "CSS", "Chakra UI", "Javascript", "Node.js", "Express", "MongoDB"],
+            url: "https://github.com/nathannsohh/trackr"
         },
         {
             title: "BabelAIBot",
@@ -102,7 +110,8 @@ export function getProjects() {
                 "A ChatGPT3.5-powered chatbot for social messaging app Telegram that automatically translates every message sent in a group chat into the native languages of every group member. Built with Python, utilising APIs from Telegram (for chatbot function) and OpenAI (for ChatGPT integration).",
                 "Built with a team where I contributed to language detection, admin bot messages, and the development of helper functions (language code conversion, UX glitter)"
             ],
-            techstack: ["Python", "ChatGPT", "Large Language Models", "Telegram Bot"]
+            techstack: ["Python", "ChatGPT", "Large Language Models", "Telegram Bot"],
+            url: "https://github.com/paynwahs/CZ4062-Group-Assignment"
         },
         {
             title: "ParkWhere",
@@ -111,7 +120,8 @@ export function getProjects() {
                 "A mobile-first web app that helps drivers in Singapore find the best parking spot on-the-go. Built with Vue, HTML, and CSS in the frontend and Node.js, Express, and MongoDB in the backend.",
                 "Built with a team where I contributed to the frontend code for the home page and search page"
             ],
-            techstack: ["Vue", "HTML", "CSS", "Javascript", "Node.js", "Express", "MongoDB"]
+            techstack: ["Vue", "HTML", "CSS", "Javascript", "Node.js", "Express", "MongoDB"],
+            url: "https://github.com/Pugonfire/parkWhere"
         },
         {
             title: "Self-Driving Land Drone",
@@ -120,7 +130,8 @@ export function getProjects() {
                 "An autonomous self-driving RC car that navigates mazes using cameras, computer vision, and pathfinding algorithm.",
                 "Built with a team where I contributed to the pathfinding algorithm, pathfinding simulation GUI, and orchestration code (to coordinate cameras, robot movement, machine learning) all of which were built in Java."
             ],
-            techstack: ["Java", "Java Swing UI", "Android Studio"]
+            techstack: ["Java", "Java Swing UI", "Android Studio"],
+            url: "https://github.com/malthusohtj/mdp-algo"
         },
         {
             title: "Distributed File System",
@@ -129,7 +140,8 @@ export function getProjects() {
                 "A command-line implementation of a distributed file system where a client computer can create, modify, and encrypt/decrypt files on a server computer. Built with Java.",
                 "Built with a partner"
             ],
-            techstack: ["Java"]
+            techstack: ["Java"],
+            url: "https://github.com/malthusohtj/cz4013-distributed"
         },
     ]
 }
